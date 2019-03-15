@@ -4,6 +4,38 @@
     
     <url>
     
+      <loc>/project/eddie/</loc>
+      <lastmod>2019-03-11T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/kernel-programming/</loc>
+      <lastmod>2019-03-10T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/activity-recognition/</loc>
+      <lastmod>2018-12-20T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/do-popular-songs-endure/</loc>
+      <lastmod>2018-11-27T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
@@ -28,24 +60,8 @@
     
     <url>
     
-      <loc>/project/activity-recognition/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/do-popular-songs-endure/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/ccompiler/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <loc>/post/getting-started/</loc>
+      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -53,15 +69,15 @@
     <url>
     
       <loc>/project/spojtoolkit/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2014-01-27T00:00:00-05:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
+      <loc>/project/ccompiler/</loc>
+      <lastmod>2013-04-26T00:00:00-04:00</lastmod>
     </url>
     
   
@@ -95,7 +111,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-03-11T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -121,7 +137,7 @@
     <url>
     
       <loc>/tags/mitesh/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-03-11T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     

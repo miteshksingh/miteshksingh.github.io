@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="&lt;br&gt;A mini-gcc compiler which can handle simple sorting programs. Developed for preliminary anaysis of all phases of Compiler Design. &lt;br&gt;&lt;br&gt; Course Project | Jun&#39;14 - Sep&#39;14 | &lt;a href=&#39;https://github.com/miteshksingh/C-compiler&#39; target=&#39;_blank&#39;&gt; Github Repo &lt;/a&gt;&lt;br&gt;&lt;b&gt;Technologies&lt;/b&gt;: C, Flex, Bison &lt;br&gt;">
+  <meta name="description" content="&lt;br&gt;The goal is to extend wrapfs, a stackable file system, with a new backup file system, bkpfs, support. To start on understanding the Linux kernel, I have created a new system call &#39;sys_cpenc&#39; that can take an input file, encrypt or decrypt it, and then produce an output file. It involved writing ~700 lines of kernel code and testing it using ~20 shell scripts. &lt;br&gt;&lt;br&gt; Operating Systems Course Project | Jan&#39;19 - Ongoing | &lt;a href=&#39;https://github.com/miteshksingh/Operating-Systems-SBU-Spring2019/tree/master/own-system-call&#39; target=&#39;_blank&#39;&gt; Github Repo &lt;/a&gt; &lt;br&gt;&lt;b&gt;Technologies&lt;/b&gt;: C, Linux Kernel Programming, Shell Script ">
 
   
-  <link rel="alternate" hreflang="en-us" href="/project/ccompiler/">
+  <link rel="alternate" hreflang="en-us" href="/project/kernel-programming/">
 
   
 
@@ -92,7 +92,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/project/ccompiler/">
+  <link rel="canonical" href="/project/kernel-programming/">
 
   
   
@@ -103,21 +103,21 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="MITESH KUMAR SINGH">
-  <meta property="og:url" content="/project/ccompiler/">
-  <meta property="og:title" content="Mini GCC Compiler | MITESH KUMAR SINGH">
-  <meta property="og:description" content="&lt;br&gt;A mini-gcc compiler which can handle simple sorting programs. Developed for preliminary anaysis of all phases of Compiler Design. &lt;br&gt;&lt;br&gt; Course Project | Jun&#39;14 - Sep&#39;14 | &lt;a href=&#39;https://github.com/miteshksingh/C-compiler&#39; target=&#39;_blank&#39;&gt; Github Repo &lt;/a&gt;&lt;br&gt;&lt;b&gt;Technologies&lt;/b&gt;: C, Flex, Bison &lt;br&gt;"><meta property="og:image" content="/project/ccompiler/featured.jpg">
+  <meta property="og:url" content="/project/kernel-programming/">
+  <meta property="og:title" content="BKPFS: A Backup File System | MITESH KUMAR SINGH">
+  <meta property="og:description" content="&lt;br&gt;The goal is to extend wrapfs, a stackable file system, with a new backup file system, bkpfs, support. To start on understanding the Linux kernel, I have created a new system call &#39;sys_cpenc&#39; that can take an input file, encrypt or decrypt it, and then produce an output file. It involved writing ~700 lines of kernel code and testing it using ~20 shell scripts. &lt;br&gt;&lt;br&gt; Operating Systems Course Project | Jan&#39;19 - Ongoing | &lt;a href=&#39;https://github.com/miteshksingh/Operating-Systems-SBU-Spring2019/tree/master/own-system-call&#39; target=&#39;_blank&#39;&gt; Github Repo &lt;/a&gt; &lt;br&gt;&lt;b&gt;Technologies&lt;/b&gt;: C, Linux Kernel Programming, Shell Script "><meta property="og:image" content="/project/kernel-programming/featured.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2013-04-26T00:00:00-04:00">
+  <meta property="article:published_time" content="2019-03-10T00:00:00-05:00">
   
-  <meta property="article:modified_time" content="2013-04-26T00:00:00-04:00">
-  
-
+  <meta property="article:modified_time" content="2019-03-10T00:00:00-05:00">
   
 
   
 
-  <title>Mini GCC Compiler | MITESH KUMAR SINGH</title>
+  
+
+  <title>BKPFS: A Backup File System | MITESH KUMAR SINGH</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -339,7 +339,7 @@
 
 
 <div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/project/ccompiler/featured_hudb808d23bcdb6c3e33c2d5c4e8c0ac37_80514_800x0_resize_q75_box.jpg');"></div>
+  <div class="featured-image" style="background-image: url('/project/kernel-programming/featured_huc3162fdbcf02a57beab563213690fa37_59976_800x0_resize_q75_box.jpg');"></div>
   <span class="article-header-caption">Photo by Toa Heftiba on Unsplash</span>
 </div>
 
@@ -348,7 +348,7 @@
   <div class="row">
     <div class="col-6">
       <div class="split-header-content">
-        <h1 itemprop="name">Mini GCC Compiler</h1>
+        <h1 itemprop="name">BKPFS: A Backup File System</h1>
 
         
 
@@ -365,9 +365,9 @@
 
   <span class="article-date">
     
-    <meta content="2013-04-26 00:00:00 -0400 EDT" itemprop="datePublished">
-    <time datetime="2013-04-26 00:00:00 -0400 EDT" itemprop="dateModified">
-      Apr 26, 2013
+    <meta content="2019-03-10 00:00:00 -0500 EST" itemprop="datePublished">
+    <time datetime="2019-03-10 00:00:00 -0500 EST" itemprop="dateModified">
+      Mar 10, 2019
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -403,39 +403,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  <a class="btn btn-outline-primary my-1" href="https://github.com/miteshksingh/C-compiler" target="_blank" rel="noopener">Go to Project Site</a>
-  
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
 
 
         
@@ -443,35 +410,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Mini%20GCC%20Compiler&amp;url=%2fproject%2fccompiler%2f"
+         href="https://twitter.com/intent/tweet?text=BKPFS%3a%20A%20Backup%20File%20System&amp;url=%2fproject%2fkernel-programming%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fproject%2fccompiler%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fproject%2fkernel-programming%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2fccompiler%2f&amp;title=Mini%20GCC%20Compiler"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2fkernel-programming%2f&amp;title=BKPFS%3a%20A%20Backup%20File%20System"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fproject%2fccompiler%2f&amp;title=Mini%20GCC%20Compiler"
+         href="http://service.weibo.com/share/share.php?url=%2fproject%2fkernel-programming%2f&amp;title=BKPFS%3a%20A%20Backup%20File%20System"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Mini%20GCC%20Compiler&amp;body=%2fproject%2fccompiler%2f">
+         href="mailto:?subject=BKPFS%3a%20A%20Backup%20File%20System&amp;body=%2fproject%2fkernel-programming%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -483,7 +450,7 @@
     </div>
     <div class="col-6">
       <div class="split-header-image">
-        <img src="/project/ccompiler/featured_hudb808d23bcdb6c3e33c2d5c4e8c0ac37_80514_680x500_fill_q90_box_smart1.jpg" itemprop="image" alt="">
+        <img src="/project/kernel-programming/featured_huc3162fdbcf02a57beab563213690fa37_59976_680x500_fill_q90_box_smart1.jpg" itemprop="image" alt="">
         <span class="article-header-caption">Photo by Toa Heftiba on Unsplash</span>
       </div>
     </div>
@@ -491,7 +458,7 @@
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">Mini GCC Compiler</h1>
+  <h1 itemprop="name">BKPFS: A Backup File System</h1>
 
   
 
@@ -508,9 +475,9 @@
 
   <span class="article-date">
     
-    <meta content="2013-04-26 00:00:00 -0400 EDT" itemprop="datePublished">
-    <time datetime="2013-04-26 00:00:00 -0400 EDT" itemprop="dateModified">
-      Apr 26, 2013
+    <meta content="2019-03-10 00:00:00 -0500 EST" itemprop="datePublished">
+    <time datetime="2019-03-10 00:00:00 -0500 EST" itemprop="dateModified">
+      Mar 10, 2019
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -530,35 +497,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Mini%20GCC%20Compiler&amp;url=%2fproject%2fccompiler%2f"
+         href="https://twitter.com/intent/tweet?text=BKPFS%3a%20A%20Backup%20File%20System&amp;url=%2fproject%2fkernel-programming%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fproject%2fccompiler%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fproject%2fkernel-programming%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2fccompiler%2f&amp;title=Mini%20GCC%20Compiler"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2fkernel-programming%2f&amp;title=BKPFS%3a%20A%20Backup%20File%20System"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fproject%2fccompiler%2f&amp;title=Mini%20GCC%20Compiler"
+         href="http://service.weibo.com/share/share.php?url=%2fproject%2fkernel-programming%2f&amp;title=BKPFS%3a%20A%20Backup%20File%20System"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Mini%20GCC%20Compiler&amp;body=%2fproject%2fccompiler%2f">
+         href="mailto:?subject=BKPFS%3a%20A%20Backup%20File%20System&amp;body=%2fproject%2fkernel-programming%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -587,39 +554,6 @@
 
 
 
-
-<div class="btn-links mb-3">
-  
-  <a class="btn btn-outline-primary my-1" href="https://github.com/miteshksingh/C-compiler" target="_blank" rel="noopener">Go to Project Site</a>
-  
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
 
 
 </div>

@@ -147,7 +147,18 @@ To remove this section, either delete content/home/teaching.md or edit the front
       
       <guid>/home/courses/</guid>
       <description>Fall 2018    CSE 512 - Machine Learning   CSE 544 - Probability &amp;amp; Statistics For Data Scientists   CSE 519 - Data Science Fundamentals   AMS 559 - Smart energy in the information age  
- Spring 2019    CSE 506 - Operating System   CSE 512 - Computer Vision   CSE 512 - Data Mining and Concepts</description>
+ Spring 2019    CSE 506 - Operating System   CSE 527 - Computer Vision   CSE 509 - System Security</description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>/home/tutorial/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/home/tutorial/</guid>
+      <description>Shoot Js Game  Demo | Code | Tutorial 
+ Neural Network By Hand  Code | Tutorial 
+ TF-IDF Based Chatbot  Code | Tutorial</description>
     </item>
     
     <item>

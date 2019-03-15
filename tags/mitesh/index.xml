@@ -7,44 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/tags/mitesh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>EDDIE: A Knowledge-Backed Dialog Agent</title>
+      <link>/project/eddie/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 -0400</pubDate>
+      
+      <guid>/project/eddie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BKPFS: A Backup File System</title>
+      <link>/project/kernel-programming/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/project/kernel-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Activity Recognition In Big Bang Theory Scenes</title>
       <link>/project/activity-recognition/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 -0500</pubDate>
       
       <guid>/project/activity-recognition/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Do popular songs endure?</title>
+      <title>Data Science Projects</title>
       <link>/project/do-popular-songs-endure/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 -0500</pubDate>
       
       <guid>/project/do-popular-songs-endure/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mini GCC Compiler</title>
-      <link>/project/ccompiler/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      <title>SPOJ Toolkit</title>
+      <link>/project/spojtoolkit/</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 -0500</pubDate>
       
-      <guid>/project/ccompiler/</guid>
+      <guid>/project/spojtoolkit/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SPOJ Toolkit</title>
-      <link>/project/spojtoolkit/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      <title>Mini GCC Compiler</title>
+      <link>/project/ccompiler/</link>
+      <pubDate>Fri, 26 Apr 2013 00:00:00 -0400</pubDate>
       
-      <guid>/project/spojtoolkit/</guid>
+      <guid>/project/ccompiler/</guid>
       <description></description>
     </item>
     
