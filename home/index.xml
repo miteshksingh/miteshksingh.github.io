@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/home/hero_carousel/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
       
       <guid>/home/hero_carousel/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Academic</title>
       <link>/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0700</pubDate>
       
       <guid>/home/hero/</guid>
       <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
@@ -33,17 +33,18 @@
     <item>
       <title></title>
       <link>/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/about/</guid>
-      <description>I am a Master&amp;rsquo;s student in the Department of Computer Science at Stony Brook University. I am part of the COMPAS  Lab and supervised by Prof. Mike Ferdman . I am currently working on developing &amp;ldquo;EDDIE: A knowledge backed intelligent dialog agent&amp;rdquo;.
-Previously, I was a full stack Software Developer at Goldman Sachs , India for 3 years. I received my Bachelor of Engineering (B.E.) degree in Computer Science from Birla Institute of Technology , Mesra, India.</description>
+      <description>I am a software engineer at Facebook. I finished my Masters in Computer Science from Stony Brook University. I worked with the COMPAS  Lab and was supervised by Prof. Mike Ferdman .
+I love building intelligent systems, specifically systems that can understand text and images. For example, I built Eddie - an open domain, contextual and conversational QA agent .
+In my leisure time, I enjoy participating in algorithmic programming contests and hackathons.</description>
     </item>
     
     <item>
       <title>Skills</title>
       <link>/home/skills/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
       <guid>/home/skills/</guid>
       <description></description>
@@ -61,7 +62,7 @@ Previously, I was a full stack Software Developer at Goldman Sachs , India for 3
     <item>
       <title>Selected Publications</title>
       <link>/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/publications_selected/</guid>
       <description></description>
@@ -79,7 +80,7 @@ Previously, I was a full stack Software Developer at Goldman Sachs , India for 3
     <item>
       <title>Recent Publications</title>
       <link>/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/publications/</guid>
       <description></description>
@@ -88,7 +89,7 @@ Previously, I was a full stack Software Developer at Goldman Sachs , India for 3
     <item>
       <title>Selected Talks</title>
       <link>/home/talks_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/talks_selected/</guid>
       <description></description>
@@ -97,7 +98,7 @@ Previously, I was a full stack Software Developer at Goldman Sachs , India for 3
     <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/talks/</guid>
       <description></description>
@@ -106,7 +107,7 @@ Previously, I was a full stack Software Developer at Goldman Sachs , India for 3
     <item>
       <title>Posts</title>
       <link>/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/posts/</guid>
       <description></description>
@@ -115,7 +116,7 @@ Previously, I was a full stack Software Developer at Goldman Sachs , India for 3
     <item>
       <title>Academic Projects</title>
       <link>/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/projects/</guid>
       <description></description>
@@ -124,7 +125,7 @@ Previously, I was a full stack Software Developer at Goldman Sachs , India for 3
     <item>
       <title>Custom Section</title>
       <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
@@ -134,7 +135,7 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Tags</title>
       <link>/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0700</pubDate>
       
       <guid>/home/tags/</guid>
       <description></description>
@@ -143,17 +144,17 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Courses</title>
       <link>/home/courses/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/courses/</guid>
       <description>Fall 2018    CSE 512 - Machine Learning   CSE 544 - Probability &amp;amp; Statistics For Data Scientists   CSE 519 - Data Science Fundamentals   AMS 559 - Smart energy in the information age  
- Spring 2019    CSE 506 - Operating System   CSE 527 - Computer Vision   CSE 509 - System Security</description>
+ Spring 2019    CSE 506 - Operating System   CSE 527 - Computer Vision   CSE 509 - System Security   CSE 523 - Advanced Project in Computer Science</description>
     </item>
     
     <item>
       <title>Tutorials</title>
       <link>/home/tutorial/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/tutorial/</guid>
       <description>Shoot Js Game  Demo | Code | Tutorial 
@@ -164,7 +165,7 @@ To remove this section, either delete content/home/teaching.md or edit the front
     <item>
       <title>Contact</title>
       <link>/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>/home/contact/</guid>
       <description></description>

@@ -17,7 +17,7 @@
   
     
   
-  <meta name="description" content="Graduate Student">
+  <meta name="description" content="Software Engineer">
 
   
   <link rel="alternate" hreflang="en-us" href="/tags/mitesh/">
@@ -108,10 +108,10 @@
   <meta property="og:site_name" content="MITESH KUMAR SINGH">
   <meta property="og:url" content="/tags/mitesh/">
   <meta property="og:title" content="mitesh | MITESH KUMAR SINGH">
-  <meta property="og:description" content="Graduate Student"><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:description" content="Software Engineer"><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2019-03-11T00:00:00-04:00">
+  <meta property="og:updated_time" content="2019-12-20T00:00:00-08:00">
   
 
   
@@ -359,12 +359,21 @@
   
   
   <div>
-    <h2><a href="/project/eddie/">EDDIE: A Knowledge-Backed Dialog Agent</a></h2>
+    <h2><a href="/project/eddie/">EDDIE: A Knowledge-Backed QA Agent</a></h2>
     <div class="article-style">
       
       
-It is an ongoing research project under the guidance of Prof. Mike Ferdman . Our goal is to develop an intelligent dialog agent that can address complex information needs of users through interactive and knowledge-backed dialog adapted to each individual user. I am currently working on developing it's question answering system using state of the art models (BERT, DrQA) on conversational datasets like CoQA and QuAC.
-Research Project | Jan'19 - Ongoing Technologies: Python, TensorFlow, PyTorch, NLP, Information Retrieval
+Built an open-domain, contextual, conversational QA agent using modified DrQA, BERT and PGNet architectures It has a document retriever, neural reader, clarifying system and an answer ranking moduleTrained an attentive stacked biLSTM model having 45% F1 accuracy on QuAC dataset. Used attentive history embeddings for contextImproved the retriever accuracy (% match in top 5 doc) from 11% to 64% by adding previous QA pairs and topic as context in queries to retrieverResearch Project | Team Size: 1 | Jan'19 - Dec'19 | Github Repo  Technologies: Python, PyTorch, NLP, Information Retrieval
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/adversarialqgen/">Adversarial Question Generation</a></h2>
+    <div class="article-style">
+      
+      
+Built a framework that generates questions, using transformer based uniLM model, on which a given QA system fails. Trained a 2 layer neural network classifier on failed questions (using infersent embeddings) of a given QA system (BiDAF, BERT based) to classify above generated questions as unanswerable/answerable, with 65% accuracy Research Project | Team Size: 3 | Sep'19 - Oct'19 | Github Repo  Technologies: Python, PyTorch, ML, NLP
       
     </div>
   </div>
@@ -374,7 +383,26 @@ Research Project | Jan'19 - Ongoing Technologies: Python, TensorFlow, PyTorch, N
     <div class="article-style">
       
       
-Developed a backup file system, BKPFS, using a stackable file system WRAPFS. BKPFS creates a hidden backup directory and multiple backup files per file to backup any modifications to the file. Users can use ioctls to list, view, recover or delete any of the backups. Wrote ~2000 lines of kernel code to implement system calls, ioctl commands, visibility and retention policies. Operating Systems Course Project | Feb'19 - Apr'19 | Github Repo  Technologies: C, Linux Kernel Programming, Shell Script 
+Developed a backup file system, BKPFS, using a stackable file system WRAPFSBKPFS creates a hidden backup directory and multiple backup files per file to backup any modifications to the file. Users can use ioctls to list, view, recover or delete any of the backups. Wrote ~2000 lines of kernel code to implement system calls, ioctl commands, visibility and retention policies. OS Course Project | Team Size: 1 | Feb'19 - Apr'19 | Github Repo  Technologies: C, Linux Kernel Programming, Virtual File Systems, Shell Script 
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/uniqpass/">UniqPass - A Security Enhancing Browser Extension</a></h2>
+    <div class="article-style">
+      
+      
+  Detects Password reuse.   Detect the entering of passwords on the wrong website Warns users on clicking links to non-Alexa 10K websites  Used Chrome’s runtime and webNavigation API’s. Stored SHA-512 encrypted passwords in chrome storage.   System Security Course Project | Team Size: 3 | Mar'19 - Mar'19 | Github Repo  Technologies: JavaScript, Chrome API's
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/yolo/">Single Shot Object Detection</a></h2>
+    <div class="article-style">
+      
+      Designed and implemented a Hybrid Neural Object Detection Model from 2 famous single shot object detectors, YOLO and SSD, using transfer learning to detect and classify images Computer Vision Course Project | Team Size: 1 | Feb'19 - Feb'19 | Github Repo  Technologies: Python, Tensorflow, Computer Vision
       
     </div>
   </div>
@@ -385,7 +413,7 @@ Developed a backup file system, BKPFS, using a stackable file system WRAPFS. BKP
       
       
 Developed multiple classifiers for hand, upper-body, scene and activity detection in Big Bang Theory Video dataset using own implementation of Logistic Regression, SGD, Hard Negative Mining SVM,Kmeans Clustering and existing CNN and RNN implementations (own architectures) in PyTorch.
-ML Course Project | Sep'18 - Dec'18 | Github Repo  Technologies: Matlab, Python, LibSVM, PyTorch 
+ML Course Project | Team Size: 1 | Sep'18 - Dec'18 | Github Repo  Technologies: Matlab, Python, LibSVM, PyTorch 
       
     </div>
   </div>
@@ -394,9 +422,20 @@ ML Course Project | Sep'18 - Dec'18 | Github Repo  Technologies: Matlab, Python,
     <h2><a href="/project/do-popular-songs-endure/">Data Science Projects</a></h2>
     <div class="article-style">
       
-       Do popular songs endure? Designed a model to predict the popularity of popular songs over time i.e. how popular or not-so-popular songs when originally released are doing today?
-Team Size: 3 | Sep'18 -Dec'18 | Github Repo  Technologies: Python, Jupyter Notebook
- Popular Dataset Contributions on Kaggle Bollywood Movie Dataset  | Hollywood Music Dataset  Kaggle Challenges  Google Analytics Customer Revenue Prediction  | NYC Taxi Fare Prediction
+       Do popular songs endure? Developed a statistical model to predict the popularity of popular songs over time i.e. how popular or not-so-popular songs when originally released are doing today?
+Data Science Course Project | Team Size: 3 | Sep'18 -Dec'18 | Github Repo  Technologies: Python, Jupyter Notebook
+ Popular Dataset Contributions on Kaggle Bollywood Movie Dataset  | Hollywood Music Dataset 
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/craiglistanalysis/">Craigslist Car &amp; Trucks Ads Analysis</a></h2>
+    <div class="article-style">
+      
+      
+Proposed and tested 5 hypotheses (Ex. black cars value  blue cars) using KS, Wald’s & Permutation TestsEstimated Craiglist traffic trough time series prediction of no. of ads posted using EWMA & Auto RegressionProb Stats Course Project | Team Size: 1 | Nov'18 - Nov'18 | Github Repo  Technologies: Python
+
       
     </div>
   </div>
@@ -407,7 +446,7 @@ Team Size: 3 | Sep'18 -Dec'18 | Github Repo  Technologies: Python, Jupyter Noteb
       
       
 Developed a popular web tool for SPOJ (Sphere Online Judge) users to get correct output for a set of input, decided upon by the user, on a SPOJ Problem. 100 unique page views every day.
-Self Project | Team Size: 2 | Dec'13 - Apr'14 | Website | Facebook Page  Technologies: PHP, Javascript, Jquery, Twitter Bootstrap
+Personal Project | Team Size: 2 | Dec'13 - Apr'14 | Website | Facebook Page  Technologies: PHP, Javascript, Jquery, Twitter Bootstrap
       
     </div>
   </div>
@@ -417,7 +456,7 @@ Self Project | Team Size: 2 | Dec'13 - Apr'14 | Website | Facebook Page  Technol
     <div class="article-style">
       
       
-A mini-gcc compiler which can handle simple sorting programs. Developed for preliminary anaysis of all phases of Compiler Design. Course Project | Jun'14 - Sep'14 | Github Repo 
+A mini-gcc compiler which can handle simple sorting programs. Developed for preliminary anaysis of all phases of Compiler Design. Compiler Course Project | Team Size: 1 | Jun'14 - Sep'14 | Github Repo 
 Technologies: C, Flex, Bison 
       
     </div>
